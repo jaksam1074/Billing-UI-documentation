@@ -15,12 +15,12 @@ end)
 
 ## Example
 ``` lua
-AddEventHandler("billing_ui:esx:ready", function() 
+RegisterNetEvent("billing_ui:esx:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
     exports["billing_ui"]:disableScriptEvent("billing_ui:notify")
 end)
 
-AddEventHandler("billing_ui:notify", function(message)
+RegisterNetEvent("billing_ui:notify", function(message)
     TriggerEvent("external_script:notify", message)
 end)
 ```
