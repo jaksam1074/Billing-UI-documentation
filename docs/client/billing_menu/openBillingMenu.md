@@ -16,5 +16,5 @@ TriggerEvent("billing_ui:openBillingMenu", targetServerID)
 local closestPlayer = ESX.Game.GetClosestPlayer()
 local targetPlayerId = GetPlayerServerId(closestPlayer)
 
-TriggerEvent("billing_ui:openBillingMenu", targetServerID)
+TriggerEvent("billing_ui:openBillingMenu", targetPlayerId)
 ```
