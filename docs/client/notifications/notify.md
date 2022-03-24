@@ -15,7 +15,7 @@ end)
 
 ## Example
 ``` lua
-RegisterNetEvent("billing_ui:esx:ready", function() 
+RegisterNetEvent("billing_ui:framework:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
     exports["billing_ui"]:disableScriptEvent("billing_ui:notify")
 end)
