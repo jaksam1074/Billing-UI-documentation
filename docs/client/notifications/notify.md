@@ -15,7 +15,7 @@ end)
 | -                 | -         | -                             |
 | `message`         | string    | Message of the notification  |
 
-## Example
+## Example (you can place it in the folder integrations/cl_integrations.lua of the script)
 ``` lua
 RegisterNetEvent("billing_ui:framework:ready", function() 
     -- Disables the default script notification (otherwise there would be 2 notifications)
