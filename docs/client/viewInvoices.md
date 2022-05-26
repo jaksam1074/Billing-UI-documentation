@@ -1,3 +1,5 @@
+# View invoices
+
 Trigger to show the menu of invoices received
 
 ## Event

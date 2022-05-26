@@ -1,3 +1,5 @@
+# Send a bill
+
 Trigger to send an invoice to a target player
 
 ## Event
